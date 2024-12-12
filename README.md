@@ -23,14 +23,14 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-sss = "0.1.0"
+shamir-rs = "0.1.0"
 ```
 
 Then, you can use the library like this:
 
 ```rust
 use num_bigint::BigUint;
-use sss::Scheme;
+use shamir_rs::Scheme;
 
 fn main() {
     // Choose a prime larger than the secret and total shares
