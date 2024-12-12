@@ -5,7 +5,7 @@ edition = "2021"
 authors = ["alake <g4titan1@gmail.com>"]
 description = "a rust implementation of Shamir's Secret Sharing scheme"
 license = "MIT"
-repository = "https://github.com/g4titanx/sss"
+repository = "https://github.com/g4titanx/shamir-rs"
 keywords = ["cryptography", "secret-sharing", "shamir", "threshold-scheme"]
 categories = ["cryptography"]
 
