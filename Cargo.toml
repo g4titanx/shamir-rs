@@ -1,0 +1,16 @@
+[package]
+name = "shamir-rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["alake <g4titan1@gmail.com>"]
+description = "a rust implementation of Shamir's Secret Sharing scheme"
+license = "MIT"
+repository = "https://github.com/g4titanx/sss"
+keywords = ["cryptography", "secret-sharing", "shamir", "threshold-scheme"]
+categories = ["cryptography"]
+
+[dependencies]
+num-bigint = {version = "0.4.6", features = ["rand"] }
+num-traits = "0.2.19"
+rand = "0.8.5"
+thiserror = "2.0.6"
